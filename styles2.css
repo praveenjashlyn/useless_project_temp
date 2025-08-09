@@ -1,0 +1,77 @@
+body {
+    /* font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 20px; */
+    margin: 5;
+      height: 100vh;
+      background: linear-gradient(135deg, #6f7a78, #e4e6ef); /* Soft blue gradient */
+      font-family: 'Poppins', sans-serif;
+      /* display: flex; */
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #1a7030;
+}
+
+#events {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.event {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.event:hover {
+    transform: translateY(-5px);
+}
+
+.event-date {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.event-details {
+    padding: 15px;
+}
+
+.event-details h2 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.event-details p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.category {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    color: white;
+    margin-top: 10px;
+}
+
+.academic {
+    background: #28a745;
+}
+
+.sports {
+    background: #dc3545;
+}

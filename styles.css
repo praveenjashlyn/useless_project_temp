@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+
+body {
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    font-family: 'Playwrite AU QLD', serif;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ffdd57;
+    margin-bottom: 40px;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Events Grid */
+#events {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Event Card */
+.event {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease;
+}
+
+.event:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+}
+
+/* Event Date */
+.event-date {
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Event Details */
+.event-details {
+    padding: 20px;
+}
+
+.event-details h2 {
+    margin: 0 0 10px;
+    font-size: 1.4rem;
+    color: #ffdd57;
+}
+
+.event-details p {
+    color: #ddd;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Category Tags */
+.category {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 25px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 12px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+}
+
+.academic {
+    background: linear-gradient(135deg, #00b09b, #96c93d);
+}
+
+.sports {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+}
