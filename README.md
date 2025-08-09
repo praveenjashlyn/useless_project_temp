@@ -1,39 +1,35 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# White Chalk 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Deep Minds
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Praveen J - College of Engineering Trivandrum
 
 ### Project Description
 [2-3 lines about what your project does]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+An Online Notice board for every USELESS and USEFULL events happening in CET.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Creating a website for the stuff.(later can be build up to a application)
+Here the part is users can watch interesting features about events and register for the same.
+Users can also upload new event details.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- HTML,CSS, JAVASCRIPT
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
